@@ -30,6 +30,25 @@ p, li {
   line-height: 1.75rem;
 }
 
+a {
+  font-weight: bold;
+  font-size: 90%;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: black;
+  text-decoration: none;
+  
+  /*transition effects*/
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #533742;
+}
+
 /*Shared rules*/
 .container {
   max-width: 40rem;
@@ -94,6 +113,92 @@ p, li {
 }
 
 .social {
-  padding: 0;
   list-style: none;
 }
+
+.social > li {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem 0 0 0.3rem;
+  border-radius: 1.5rem;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+
+  /*transition effects*/
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+
+  /*transition effects*/
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.social > li:hover {
+  background-color: #533742;
+}
+
+.social > li > a:hover {
+  color: white;
+}
+
+/*Responsive media queries*/
+@media only screen and (max-width: 750px) {
+    .mastheadBackground,
+    .locationBackground,
+    .questionsBackground {
+      padding: 10rem 0;
+    }
+
+    .headline {
+      font-size: 4.5rem;
+      top: 11.25rem;
+    }
+
+    .deck {
+      font-size: 1.3rem;
+      line-height: 1.7rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    .spaceAbove15rem {
+      margin-top: 10rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .mastheadBackground,
+    .locationBackground,
+    .questionsBackground {
+      padding: 6rem 0;
+    }
+
+    .headline {
+      font-size: 3.5rem;
+      top: 7rem;
+    }
+
+    .deck {
+      font-size: 1.3rem;
+      line-height: 1.7rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    .spaceAbove15rem {
+      margin-top: 4rem;
+    }
+}
+
