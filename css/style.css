@@ -87,3 +87,13 @@ p, li {
   line-height: 2.5rem;
 }
 
+.contentFooter {
+  margin-bottom: 0;
+  padding: 2rem 0 2rem 0;
+  background-color: #EDA838;
+}
+
+.social {
+  padding: 0;
+  list-style: none;
+}
