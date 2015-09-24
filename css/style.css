@@ -1,0 +1,89 @@
+html {
+  /*Enable box-sizing for current and legacy browsers*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+  /*Enable anti-aliasing for typography in current browsers*/
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+  /*Enable box-sizing for current and legacy browsers*/
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/*General typography*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "acta-display", serif;
+  text-align: left;
+  font-weight: 900;
+}
+
+p, li {
+  font-family: "leitura-news", serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+}
+
+/*Shared rules*/
+.container {
+  max-width: 40rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.spaceAbove2rem {
+  margin-top: 2rem;
+}
+
+.spaceAbove15rem {
+  margin-top: 15rem;
+}
+
+/*header section*/
+.mastheadBackground {
+  background-image: url("https://unsplash.com/photos/QbekaGW_zMo/download");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 14rem 0;
+}
+
+.locationBackground {
+  background-image: url("https://unsplash.com/photos/ZPQE4XssoBc/download");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 14rem 0;
+}
+
+.questionsBackground {
+  background-image: url("https://unsplash.com/photos/K6_htm1wpfg/download");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 14rem 0;
+}
+
+.headline {
+  font-size: 6rem;
+  position: relative;
+  top: 15.75rem;
+}
+
+.deck {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.025rem; 
+  line-height: 2.5rem;
+}
+
