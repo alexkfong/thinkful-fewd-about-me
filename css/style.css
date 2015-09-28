@@ -93,6 +93,13 @@ a:hover {
   padding: 14rem 0;
 }
 
+.portfolioBackground {
+  background-image: url("https://unsplash.com/photos/LKufzuBn8Bs/download");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 14rem 0;
+}
+
 .headline {
   font-size: 6rem;
   position: relative;
@@ -104,6 +111,36 @@ a:hover {
   font-weight: 400;
   letter-spacing: -0.025rem; 
   line-height: 2.5rem;
+}
+
+.portfolioItem {
+  width: 44%;
+  margin: 0 2rem 0 0;
+  display: inline-block;
+}
+
+.portfolioItem > img {
+  width: 100%;
+  
+  /*Slight drop shadow on website screenshots*/
+  -webkit-box-shadow: 0px 0px 6px 2px gray;
+     -moz-box-shadow: 0px 0px 6px 2px gray;
+       -o-box-shadow: 0px 0px 6px 2px gray;
+          box-shadow: 0px 0px 6px 2px gray;
+
+  /*transition effects*/
+  -webkit-transition: -webkit-box-shadow color 0.3s ease;
+  -moz-transition: -moz-box-shadow 0.3s ease;
+  -o-transition: -o-box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+
+.portfolioItem > img:hover {
+    /*Slight drop shadow on website screenshots*/
+  -webkit-box-shadow: 0px 0px 6px 2px #EDA838;
+     -moz-box-shadow: 0px 0px 6px 2px #EDA838;
+       -o-box-shadow: 0px 0px 6px 2px #EDA838;
+          box-shadow: 0px 0px 6px 2px #EDA838;
 }
 
 .contentFooter {
